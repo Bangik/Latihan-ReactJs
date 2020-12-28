@@ -3,9 +3,55 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="container">
+      <div className="frame">
+        <section className="header">
+          <button name="button" className="header-btn">
+            Add
+          </button>
+          <h1 className="header-title">Todo List</h1>
+          <button name="button" className="header-btn main-red-color">
+            Clear
+          </button>
+        </section>
+        <section className="add">
+          <form className="add-form">
+            <input type="text" name="" value="" className="add-input"></input>
+            <button type="button" name="button" className="add-btn">
+              Add
+            </button>
+          </form>
+        </section>
+        <section className="todos">
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+          <div className="todo">
+            <span className="todo-text">todododo</span>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }
